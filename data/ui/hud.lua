@@ -163,7 +163,7 @@ function init()
 
 	mapInit(gMissionId)
 
-	modloader.init()
+	modloaderinit()
 
 end
 
