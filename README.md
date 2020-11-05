@@ -13,6 +13,10 @@ Drag and drop the data folder in the zip into your game folder.
 To see if it works, hope in game. If you see a notification saying spam. 
 The mod loader is working and is loading the spam mod.
 
+# How to uninstall mods
+Remove the `using "yourmod.lua"` in the modloader.lua
+Remove everything in the tick() init() related to your mod
+
 ## How to use(make mods)
 Open modloader.lua to see how the spam mod is being loaded.
 The spam.lua mod should be used as a template on how to load your custom lua scripts.
